@@ -30,11 +30,4 @@ public class ConsoleUI {
             }
         }
     }
-
-    /*
-     * find(String searchParam) {
-     *   return service.какой-то метод поиска
-     * }
-     *
-     * */
 }
