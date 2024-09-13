@@ -28,16 +28,6 @@ public class Laptop {
         this.Color = Color;
     }
 
-//    @Override
-//    public String toString() {
-//        return "Laptop {" +
-//                "RAM=" + RAM + '\'' +
-//                ", HDD=" + HDD + '\'' +
-//                ", OS=" + OS + '\'' +
-//                ", Color=" + Color + '\'' +
-//                '}';
-//    }
-
     @Override
     public String toString() {
         return String.format("Laptop { RAM:%s, HDD:%s, OS:%s, Color:%s }", RAM, HDD, OS, Color);
